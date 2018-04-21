@@ -1,0 +1,24 @@
+implements
+import
+instanceof
+int
+interface
+long
+native
+new
+package
+private
+protected
+public
+
+public class Liner extends Staff {
+    COLOR color;
+    int size = 0;
+
+    public Liner() {
+    }
+
+    public String toString() {
+        return "Liner{, color=" + this.color + ", size=" + this.size + ", price=" + this.price + ", name=" + this.name + "}";
+    }
+}

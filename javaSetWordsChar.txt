@@ -1,0 +1,19 @@
+instanceof
+int
+interface
+long
+native
+new
+package
+
+ private static byte[] getBytesFromFile(String filePath) throws IOException {
+        try (FileInputStream in = new FileInputStream(filePath);
+             ByteArrayOutputStream os = new ByteArrayOutputStream()) {
+            byte[] buffer = new byte[0xFFFF];
+            for (int len; (len = in.read(buffer)) != -1; ) {
+                os.write(buffer, 0, len);
+            }
+            os.flush();
+            return os.toByteArray();
+        }
+    }

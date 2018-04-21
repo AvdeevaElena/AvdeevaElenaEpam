@@ -1,0 +1,1 @@
+{class=1, extends=1, implements=1, import=1, instanceof=1, int=2, interface=1, long=1, native=1, new=1, package=1, private=1, protected=1, public=4, return=1}
